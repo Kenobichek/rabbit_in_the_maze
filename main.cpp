@@ -15,24 +15,15 @@ int main() {
 	srand(time(NULL));
 	maze arr;
 	arr.createMaze(0);
-	//arr.arrMaze();
-	//arr.print();
-	//field1.fillTheField();
 
 	RenderWindow app(VideoMode(1000, 800), "Maze");
 	app.setFramerateLimit(60);
-	//system("dir");
-
 	int w = 35;
 	int rabbit_dx = arr.startX,rabbit_dy = arr.startY;
-	//int carrot_dx = arr.finishX, carrot_dy = arr.finishY;
 	int carrot_dx = 2, carrot_dy = 2;
-	//int fox_dx = N - 1, fox_dy = M - 1;
 	bool hide_rabbitR = true, hide_rabbitL = false, hide_fox = false;
 
 	fox myFox;
-	//float timer = 0, delay = 0.3;
-	//Clock clock;
 
 	Font JOKERMAN;
 	Font CENTAUR;
@@ -67,10 +58,7 @@ int main() {
 	Clock clock;
 	float timer = 0, delay = 5;
 
-	//Сlock timer;
 	while (app.isOpen()) {
-		/*float time = clock.restart().asSeconds();*/
-		//std::cout << timer << " " << delay << "\n";
 		float time = clock.getElapsedTime().asSeconds();
 		clock.restart();
 		timer += time;

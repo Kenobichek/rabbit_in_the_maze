@@ -1,0 +1,2 @@
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\x64\Debug\maze.exe
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\x64\Debug\maze.pdb

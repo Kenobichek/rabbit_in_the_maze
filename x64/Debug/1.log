@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (labyrinth.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(15,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(112,37): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(112,25): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(138,57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(138,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(141,61): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(141,41): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(142,60): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(142,40): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(143,59): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\lesec\Desktop\полезный мусор\projects\maze\main.cpp(143,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  1.vcxproj -> C:\Users\lesec\Desktop\полезный мусор\projects\maze\x64\Debug\maze.exe

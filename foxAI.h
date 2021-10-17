@@ -51,7 +51,6 @@ public:
 				vec.push_back({ fox_dx ,fox_dy + 1 });
 			}
 		}
-		//std::sort(vec.begin(), vec.end());
 		for (int i = 1; i < vec.size(); i++) {
 			for (int j = i; j > 0 && mySort(vec[j - 1], vec[j]); j--) {
 				point tmp = vec[j];
@@ -65,7 +64,7 @@ public:
 			break;
 		}
 		visibility(Maze);
-		print();
+		//print();
 	}
 	void visibility(maze Maze) {
 		paths[fox_dx][fox_dy] = 1;
